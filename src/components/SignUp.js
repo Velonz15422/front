@@ -72,7 +72,7 @@ export default function SignUp() {
                         <LockOutlinedIcon />
                     </Avatar>
                     <Typography component="h1" variant="h5">
-                        Sign up
+                        Registrarse
                     </Typography>
                     <Box component="form" noValidate onSubmit={handleSubmit} sx={{ mt: 3 }}>
                         <Grid container spacing={2}>
@@ -125,7 +125,7 @@ export default function SignUp() {
                             <Grid item xs={12}>
                                 <FormControlLabel
                                     control={<Checkbox value="allowExtraEmails" color="primary" />}
-                                    label="I want to receive inspiration, marketing promotions and updates via email."
+                                    label="Quiero recibir notificaciones."
                                 />
                             </Grid>
                         </Grid>
@@ -136,12 +136,12 @@ export default function SignUp() {
                             sx={{ mt: 3, mb: 2 }}
                             onClick={signup}
                         >
-                            Sign Up
+                            Registrarse
                         </Button>
                         <Grid container justifyContent="flex-end">
                             <Grid item>
                                 <RouteLink to='/login'>
-                                    Already have an account? Sign in
+                                    ¿Ya tienes una cuenta? Inicia Sesión
                                 </RouteLink>
                             </Grid>
                         </Grid>

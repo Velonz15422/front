@@ -5,7 +5,7 @@ import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
-import logo from "../assets/numero.jpg"
+import logo from "../assets/six.png"
 import { ShoppingCart } from '@mui/icons-material';
 import { Badge, makeStyles } from '@mui/material';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -56,7 +56,7 @@ const Navbar = () => {
 
                     <div sx={{ flexGrow: 3 }} />
                     <Typography variant="h6" component="p" color="textPrimary" sx={{ flexGrow: 1 }}>
-                        Hola {user ? user.email : "Guest"}
+                        Hola {user ? user.email : ""}
                     </Typography >
                     <Link to='login'>
                         <Button variant='filled' onClick={handleAuth} >

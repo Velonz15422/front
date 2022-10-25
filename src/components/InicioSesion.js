@@ -21,7 +21,7 @@ function Copyright(props) {
         <Typography variant="body2" color="text.secondary" align="center" {...props}>
             {'Copyright © '}
             <Link color="inherit" href="https://mui.com/">
-                Your Website
+                Six Pet Shop
             </Link>{' '}
             {new Date().getFullYear()}
             {'.'}
@@ -68,7 +68,7 @@ export default function SignIn() {
                         <LockOutlinedIcon />
                     </Avatar>
                     <Typography component="h1" variant="h5">
-                        Sign in
+                        Iniciar Sesión
                     </Typography>
                     <Box component="form" onSubmit={handleSubmit} noValidate sx={{ mt: 1 }}>
                         <TextField
@@ -106,17 +106,17 @@ export default function SignIn() {
                             sx={{ mt: 3, mb: 2 }}
                             onClick={signin}
                         >
-                            Sign In
+                            Iniciar Sesión
                         </Button>
                         <Grid container>
                             <Grid item xs>
                                 <Link href="#" variant="body2">
-                                    Forgot password?
+                                    ¿Olvidaste la clave?
                                 </Link>
                             </Grid>
                             <Grid item>
                                 <RouteLink to='/signup'>
-                                    {"Don't have an account? Sign Up"}
+                                    {"¿No tienes una cuenta? Regístrate"}
                                 </RouteLink>
                             </Grid>
                         </Grid>
