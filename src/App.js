@@ -29,7 +29,7 @@ function App() {
     <BrowserRouter>
       <Navbar />
       <Routes>
-        <Route path='/' element={<Productos />} />
+        <Route path='/' element={<Productos/>} />
       </Routes>
       <Routes>
         <Route path='/login' element={<InicioSesion />} />

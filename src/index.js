@@ -6,7 +6,6 @@ import reportWebVitals from './reportWebVitals';
 import { StateProvider } from './StateProvider';
 import reducer, {initialState} from './Reducer';
 import './firebase'
-import 'bootswatch/dist/quartz/bootstrap.min.css'
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
