@@ -25,7 +25,7 @@ const ExpandMore = styled((props) => {
 
 export default function CardCheckout({ producto: { id, nombre, tipo, precio, rating, imagen, descripcion } }) {
     const [expanded, setExpanded] = React.useState(false);
-    const [{ basket }, dispatch] = useStateValue()
+    const [{ basket, dispatch }] = useStateValue()
 
     const handleExpandClick = () => {
         setExpanded(!expanded);

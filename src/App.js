@@ -9,6 +9,7 @@ import { useEffect } from 'react';
 import { auth } from './firebase';
 import { ActionTypes } from '@mui/base';
 import { useStateValue } from './StateProvider';
+import Checkout from './CheckoutForm/Checkout';
 
 function App() {
   const [{ user }, dispatch] = useStateValue()
@@ -39,6 +40,9 @@ function App() {
       </Routes>
       <Routes>
         <Route path='/pagina-pago' element={<PaginaCheckout />} />
+      </Routes>
+      <Routes>
+        <Route path='/pago' element={<Checkout />} />
       </Routes>
 
     </BrowserRouter>

@@ -19,7 +19,7 @@ import { reducer } from "../Reducer";
 
 
 const Navbar = () => {
-    const [{ basket, user }, dispatch] = useStateValue()
+    const [{ basket, user, dispatch }] = useStateValue()
     console.log(basket.len)
     const history = useNavigate();
     const handleAuth = () => {
