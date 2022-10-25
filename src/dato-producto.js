@@ -28,4 +28,5 @@ const productos =[
         imagen: "https://animalscenter.com/1563-home_default/cardial-5-mg-caja-30-comprimidos.jpg",
         descripcion: "Como pal corazon"
 
-    },
+    }
+]
